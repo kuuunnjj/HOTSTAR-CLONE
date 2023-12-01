@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(15,16,20);
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+.sidebar{
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    /* border: 1px solid white; */
+    padding-top: 2.5vw;
+    padding-right: 1.5vw;
+}
+.sidebar .hlogo img{
+    width: 70px;
+}
+.sidebar .hlogo button{
+    background-color: rgb(39,35,30);
+    border: none;
+    color: rgb(255,204,117);
+    font-weight: 300;
+    border-radius: 2vw;
+    font-size: 0.95vw;
+    width: 6.7vw;
+    height: 1.8vw;
+    padding-left: 0.6vw;
+    margin-top: 1vw;
+}
+.sidebar .hlogo button i{
+    font-size: 1.2vw;
+    font-weight: lighter;
+}
+
+
+
+.main .hicon .hanchor a{
+    text-decoration: none;
+    margin-top: 2.3vw;
+    font-size: 1.6vw;
+    color: rgb(159,159,161);
+    transition: 0.5s;
+    width: 100px;
+    height: max-content;
+    transition: 0.5s;
+}
+.main .hicon .hanchor a:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.main .hicon .hanchor a:hover{
+    color: white;
+    transition: 0.4s;
+}
+#fa{
+    margin-top: 1.2vw;
+}
+
+
+
+
+.content{
+    background: url(c1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.content .c1bg{
+    width: 100%;
+    height: 45vw;
+    padding-bottom: 6vw;
+    box-shadow: 200px -124px 119px 48px rgba(15,16,20,1) inset;
+    -webkit-box-shadow: 200px -124px 119px 48px rgba(15,16,20,1) inset;
+    -moz-box-shadow: 200px -124px 119px 48px rgba(15,16,20,1) inset;
+}
+.content .c1bg img{
+    width: 25vw;
+}
+.content .c1bg h4{
+    color: white;
+    font-size: 1.1vw;
+    margin-block: 1.7vw;
+}
+.content .c1bg h4 i{
+    color: rgb(217,217,217);
+    font-size: 0.5vw;
+    margin-inline: 0.7vw;
+}
+.content .c1bg p{
+    color: rgb(217,217,217);
+    font-size: 1.1vw;
+    margin-bottom: 2.5vw;
+    text-transform: capitalize;
+}
+.content .c1bg button{
+    background-color: rgba(143, 143, 149, 0.375);
+    border: none;
+    color: white;
+    width: 32vw;
+    height: 3.9vw;
+    border-radius: 0.5vw;
+    font-size: 1.3vw;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.content .c1bg button:hover{
+    transform: scale(1.030);
+    transition: 0.5s;
+    background-color: rgba(165, 165, 172, 0.479);
+}
+.content .c1bg button i{
+    font-size: 1.9vw;
+    margin-right: 0.7vw;
+}
+
+.content2{
+    margin-top: 3vw;
+}
+.content2 img{
+    width: 14.3vw;
+    padding-inline: 0.2vw;
+    border-radius: 0.5vw;
+    margin: 0px;
+}
+.content2 h1{
+    color: white;
+    font-size: 1.6vw;
+    margin-left:0.4vw;
+    word-spacing: 2px;
+    margin-bottom: 0.9vw;
+}
+
+
+.content3{
+    margin-top: 3vw;
+}
+.content3 img{
+    width: 14.3vw;
+    padding-inline: 0.2vw;
+    border-radius: 0.5vw;
+    margin: 0px;
+}
+.content3 h1{
+    color: white;
+    font-size: 1.6vw;
+    margin-left:0.4vw;
+    word-spacing: 2px;
+    margin-bottom: 0.9vw;
+}
+
+.content4{
+    margin-top: 3vw;
+}
+.content4 img{
+    width: 17.2vw;
+    padding-inline: 0.2vw;
+    border-radius: 0.5vw;
+    margin: 0px;
+}
+.content4 h1{
+    color: white;
+    font-size: 1.6vw;
+    margin-left:0.4vw;
+    word-spacing: 2px;
+    margin-bottom: 0.9vw;
+}
+
+
+.footer{
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+}
+.footer .f1 h3{
+    color: white;
+    font-size: 1.2vw;
+   
+}
+.footer .f1 a{
+    font-size: 0.9vw;
+    text-decoration: none;
+    color:  rgb(143,152,178);
+    font-weight: 500;
+    letter-spacing: 0.06vw;
+}
+.footer .f1 i{
+    font-size: 2vw;
+    color:  rgb(143,152,178);
+}
+
+
+.footer2 h3{
+    color: rgb(143,152,178);
+    font-size: 1vw;
+    text-align: center;
+    padding-block: 1.5vw;
+    letter-spacing: 0.09vw;
+    border-top: 1px solid rgba(143, 152, 178, 0.418);
+}
